@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="tp"
+
+        color="#fff">Otener ayuda</string>
+    <string name="ter">Registrate</string>
+    <string name="textosa">¿Has olvidado tu informacion de inicio de secion? <b> Obten ayuda</b></string>
+    <string name="entrar">Entrar</string>
+    <string name="contrase_a">Contraseña</string>
+</resources>

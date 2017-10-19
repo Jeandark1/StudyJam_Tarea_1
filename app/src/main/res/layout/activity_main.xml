@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gdandroidbolivia.myapplication.MainActivity"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginBottom="1dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/fa1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+
+                    android:src="@drawable/ti" />
+
+                <EditText
+                    android:id="@+id/etUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="roboto-regular"
+                    android:hint="  Numero de telefono,correo electronico o no "
+                           android:background="@drawable/fondo2"
+                    android:textColor="#807f7f"
+                    android:inputType="text"
+                    android:textSize="16.5dp"/>
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:background="@drawable/fondo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="roboto-regular"
+                    android:hint="contraseña"
+                    android:inputType="textPassword"
+                    android:textSize="16.5dp"
+                    android:textColor="#807f7f"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnRegistro"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@drawable/botoon"
+                        android:textAllCaps="false"
+                        android:text="Entrar"
+                        android:textColor="#d168c7e7"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="all"
+                        android:gravity="center"
+                        android:text="@string/textosa"
+                        android:textColor="#807f7f"
+                        android:textSize="12sp"
+                        android:layout_marginTop="0dp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        >
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="0dp"
+                            android:background="#807f7f">
+                        </View>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="13dp"
+                            android:layout_marginLeft="5dp"
+
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/redondo"
+                            android:layout_weight="0.14"
+                            android:layout_gravity="center">
+
+                        </View>
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="2"
+                            android:layout_height="1dp"
+                            android:background="#807f7f">
+
+                        </View>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:gravity="left|center"
+                        android:text="   Continuar como Demian Kira Mae"
+                        android:textStyle="bold"
+                        android:textColor="#f12c84cc"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:drawableLeft="@drawable/fa"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="60dp"/>
+                    <View
+                        android:layout_width="360dp"
+                        android:layout_height="1dp"
+                        android:background="#807f7f">
+
+                    </View>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="¿No tienes una cuenta? Registrate"
+                        android:textColor="#807f7f"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginTop="0dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
